@@ -27,7 +27,9 @@ body{
 .gray{
     color: #8987A1;
 }
-
+.white{
+    color: white;
+}
 /* flex/grid/align */
 .flex{
     display: flex;
@@ -123,7 +125,93 @@ nav ul{
     align-items: center;
 }
 
-/*  */
+/* Latest Deal */
+.image-container{
+    margin-top: 119px;
+    gap: 28px;
+}
+.small-images{
+    flex-direction: column;
+    gap: 25px;
+}
+.image{
+    width: 367px;
+    height: 201px;
+    background-image: url(deal-bloom.png);
+    border-radius: 14px;
+}
+.img-card{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 14px;
+}
+.img-card p{
+    font-size: 1.25em;
+    font-weight: 700;
+    padding: 65px 0px 26px;
+}
+.img-card a{
+    font-weight: 600;
+}
+.image-2{
+    background-image: url(deal-ana.png);
+}
+.image-3{
+    background-image: url(deal-zabo.png);
+    width: 753px;
+    height: 423px;
+}
+.img-card-3{
+    padding-top: 107px;
+}
+
+/* Join the colorful bunch */
+.sec-four{
+    width: 1440px;
+    height: 533px;
+    background-image:url(news-letter-bg.png);
+    margin: 120px auto 0;
+    padding-top: 199px;
+}
+.sec-four input{
+    margin-top: 23px;
+    position: relative;
+    width: 644px;
+    height: 50px;
+    padding-left: 20px;
+    border: none;
+}
+.sec-four button{
+    position: relative;
+    width: 186px;
+    right: 1%;
+}
+
+/* Footer section*/
+footer{
+    padding: 50px 0px;
+    grid-template-columns: 359px 85px 128px 216px;
+    column-gap: 110px;
+}
+.logo-container img{
+    margin-bottom: 16px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.icon{
+    gap: 24px;
+}
+.icon img{
+    width: 36px;
+    height: 36px;
+}
+
+
 
 
 
@@ -155,6 +243,7 @@ nav ul{
     /* Banner */
     .banner{
         flex-direction: column-reverse;
+        margin-top: 0px;
     }
     .banner-text {
         margin: 28px 16px;
@@ -185,7 +274,6 @@ nav ul{
 
     /* Flower & Plants Lover */
     .sec-two{
-
         padding: 41px 17px;
     }
     .review-container{
@@ -199,6 +287,49 @@ nav ul{
         padding-left: 20px;
     }
 
-    /*  */
-    
+    /* Latest Deal */
+    .sec-three{
+        margin-top: 143px;
+        padding:0px 17px ;
+    }
+    .image-container {
+        margin-top: 51px;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+    .image-md{
+    background-image: url(deal-zabo.png);
+    width: 367px;
+    height: 201px;
+    }
+    .img-card-md{
+    padding-top:0px;
+    }
+
+    /* join section */
+    .sec-four{
+        padding-top: 110px;
+        width: 100%;
+        height: 275px;
+        background-size: cover;
+        background-position: center;
+    }
+    .sec-four h1{
+        font-size: 1.25em;
+        margin-bottom: 0;
+    }
+    .sec-four input{
+        width: 218px;
+    }
+    .sec-four button{
+        width: 103px;
+    }
+
+    /* Footer Section */
+    footer{
+        grid-template-columns: 1fr;
+        gap: 32px;
+        padding: 50px 20px;
+    }
 }
