@@ -23,10 +23,10 @@
             <img src="assets/logo.png" alt="">
 
             <ul class="flex">
-                <li class="hide"><b>Home</b></li>
-                <li class="gray hide">Shop</li>
-                <li class="gray hide">About Us</li>
-                <li><i class="fa-solid fa-cart-shopping fa-xl"></i> Cart ($56)</li>
+                <li class="hide"><a href="#" class="none black"><b>Home</b></a></li>
+                <li class="hide"><a href="#" class="none gray">Shop</a></li>
+                <li class="gray hide"><a href="" class="none gray">About Us</a></li>
+                <li><a href="#" class="none black"><i class="fa-solid fa-cart-shopping fa-xl"></i> Cart ($56)</a></li>
             </ul>   
         </nav>
 
@@ -39,7 +39,7 @@
             <img src="assets/hero-flower.png" alt="">
          </div>
     </header>
-<main class="">
+<main>
     <!-- Our Plants -->
      <section class="sec-one sec-margin-top align">
         <h1 class="sec-header noto-serif center md-header"><span class="orange">Our </span>Plants</h1>
@@ -49,51 +49,59 @@
                 <img src="assets/sample-flower-image.png" alt="">
                 <p class="name">Lily Blossom</p>
                 <p class="price">20 USD</p>
-                <button class="btn">ADD TO CART</button>
+                <button onclick="welcome()" class="btn">ADD TO CART</button>
             </div>
             <div class="card center">
                 <img src="assets/sample-flower-image.png" alt="">
                 <p class="name">Lily Blossom</p>
                 <p class="price">20 USD</p>
-                <button class="btn">ADD TO CART</button>
+                <button onclick="welcome()" class="btn">ADD TO CART</button>
             </div>
             <div class="card center">
                 <img src="assets/sample-flower-image.png" alt="">
                 <p class="name">Lily Blossom</p>
                 <p class="price">20 USD</p>
-                <button class="btn">ADD TO CART</button>
+                <button onclick="welcome()" class="btn">ADD TO CART</button>
             </div>
             <div class="card center">
                 <img src="assets/sample-flower-image.png" alt="">
                 <p class="name">Lily Blossom</p>
                 <p class="price">20 USD</p>
-                <button class="btn">ADD TO CART</button>
+                <button onclick="welcome()" class="btn">ADD TO CART</button>
             </div>
             <div class="card center">
                 <img src="assets/sample-flower-image.png" alt="">
                 <p class="name">Lily Blossom</p>
                 <p class="price">20 USD</p>
-                <button class="btn">ADD TO CART</button>
+                <button onclick="welcome()" class="btn">ADD TO CART</button>
             </div>
             <div class="card center">
                 <img src="assets/sample-flower-image.png" alt="">
                 <p class="name">Lily Blossom</p>
                 <p class="price">20 USD</p>
-                <button class="btn">ADD TO CART</button>
+                <button onclick="welcome()" class="btn">ADD TO CART</button>
             </div>
             <div class="card center">
                 <img src="assets/sample-flower-image.png" alt="">
                 <p class="name">Lily Blossom</p>
                 <p class="price">20 USD</p>
-                <button class="btn">ADD TO CART</button>
+                <button onclick="welcome()" class="btn">ADD TO CART</button>
             </div>
             <div class="card center">
                 <img src="assets/sample-flower-image.png" alt="">
                 <p class="name">Lily Blossom</p>
                 <p class="price">20 USD</p>
-                <button class="btn">ADD TO CART</button>
+                <button onclick="welcome()" class="btn">ADD TO CART</button>
             </div>
         </div>
+
+        <!-- Script tag use -->
+         <script>
+            function welcome() {
+                alert ("Flower Added to Cart");
+            }
+         </script>
+
      </section>
 
      <!-- Flower & Plants Lover -->
@@ -157,21 +165,21 @@
     <footer class="align grid">
         <div class="logo-container">
             <img src="assets/logo.png" alt="">
-            <p class="description">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+            <p class="description md-description">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
         </div>
         <ul>
-            <li class="gray">Home</li>
-            <li class="gray">About Us</li>
-            <li class="gray">Blog</li>
-            <li class="gray">FAQ</li>
-            <li class="gray">Contact Us</li>
+            <li><a href="#" class="gray none">Home</a></li>
+            <li><a href="#" class="gray none">About Us</a></li>
+            <li><a href="#" class="gray none">Blog</a></li>
+            <li><a href="#" class="gray none">FAQ</a></li>
+            <li><a href="#" class="gray none">Contact Us</a></li>
         </ul>
         <ul>
-            <li class="gray">Features</li>
-            <li class="gray">Pricing</li>
-            <li class="gray">Privacy Policy</li>
-            <li class="gray">Terms of Service</li>
-            <li class="gray">Help Center</li>
+            <li><a href="#" class="gray none">Features</a></li>
+            <li><a href="#" class="gray none">Pricing</a></li>
+            <li><a href="#" class="gray none">Privacy Policy</a></li>
+            <li><a href="#" class="gray none">Terms of Service</a></li>
+            <li><a href="#" class="gray none">Help Center</a></li>
         </ul>
 
         <div class="icon flex">
