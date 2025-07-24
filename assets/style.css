@@ -134,6 +134,7 @@ nav ul{
     }
 }
 .trusted-badge{
+    filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.25));
     width: 286px;
     position: absolute;
     right: 43%;
